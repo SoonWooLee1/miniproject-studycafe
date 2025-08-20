@@ -74,7 +74,9 @@ public class Application {
     }
 
     private static void modifyMenu() {
-        int memNo;
+        int memNo = chooseMemNo("수정할");
+        Member selectedMember = ms.findMemberBy(memNo);
+
     }
 
     private static int chooseMemNo(String 입실할) {
